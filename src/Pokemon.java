@@ -3,6 +3,12 @@ public class Pokemon {
     protected Integer hp;
     protected Integer atk;
 
+    /**
+     *
+     * @param nom
+     * @param hp
+     * @param atk
+     */
     public Pokemon(String nom, Integer hp, Integer atk) {
         this.nom = nom;
         hp = hp;
